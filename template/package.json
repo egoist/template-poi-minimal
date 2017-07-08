@@ -1,0 +1,18 @@
+{
+  "name": "<%= name %>",
+  "version": "0.0.0",
+  "description": "<%= description %>",
+  "license": "MIT",
+  "author": {
+    "name": "<%= username %>",
+    "email": "<%= email %>",
+    "url": "<%= website %>"
+  },
+  "scripts": {
+    "build": "poi build",
+    "dev": "poi"
+  },
+  "devDependencies": {
+    "poi": "^9.1.0"
+  }
+}
