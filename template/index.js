@@ -1,8 +1,7 @@
 import Vue from 'vue'
+import App from './App.vue'
 
 new Vue({
   el: '#app',
-  render() {
-    return <div id="app">Hello Poi Minimal!</div>
-  }
+  render: h => h(App)
 })
