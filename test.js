@@ -10,6 +10,7 @@ test('defaults', async t => {
     '.editorconfig',
     '.gitattributes',
     '.gitignore',
+    'App.vue',
     'LICENSE',
     'README.md',
     'index.js',
